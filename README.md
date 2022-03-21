@@ -14,7 +14,8 @@ DELETE /keystore/<id>
 
 ## Requirements
 
-Install python, and basic build tools, also install unzip and wget for convenience.
+Install python, and basic build tools.
+
 
 ```shell
 sudo apt-get update
@@ -133,4 +134,5 @@ docker run --name redis-4-keystore -p 6397:6397 -d redis:latest --requirepass "m
 
 # In this case set the REDIS_HOST env var to localhost
 export REDIS_HOST="localhost"
+export REDIS_PASSWORD="mysecretpass"
 ```
