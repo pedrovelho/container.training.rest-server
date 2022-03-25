@@ -126,11 +126,11 @@ pytest .
 
 ## Tips
 
-You can  run exposing the port 6397 in this case set redis host to localhost, and port to 6397.
+You can  run exposing the port 6379 in this case set redis host to localhost, and port to 6379.
 
 ```shell
 # Run the redis container
-docker run --name redis-4-keystore -p 6397:6397 -d redis:latest --requirepass "mysecretpass"
+docker run --name redis-4-keystore -p 6379:6379 -d redis:latest --requirepass "mysecretpass"
 
 # In this case set the REDIS_HOST env var to localhost
 export REDIS_HOST="localhost"
