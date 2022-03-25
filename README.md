@@ -34,7 +34,7 @@ pip3 install redis flask pytest
 Get the code from github.
 
 ```shell
-git clone https://github.fixme
+git clone git@github.com:pedrovelho/container.training.rest-server.git
 # change the working directory
 cd rest-server
 ```
